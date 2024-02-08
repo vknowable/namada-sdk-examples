@@ -1,0 +1,11 @@
+[package]
+name = "transparent-transfer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenvy = "0.15.7"
+namada_sdk = { git = "https://github.com/anoma/namada", rev = "v0.31.2" }
+namada_tx = { git = "https://github.com/anoma/namada", rev = "v0.31.2" }
+tendermint-rpc = { version = "0.34.0", features = ["http-client"] }
+tokio = { version = "1.26.0" }

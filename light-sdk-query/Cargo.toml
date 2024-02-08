@@ -1,0 +1,8 @@
+[package]
+name = "light-sdk-query"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+namada_light_sdk = { git = "https://github.com/anoma/namada", rev = "v0.31.2", default-features = true }
+tokio = { version = "1.26.0", features = ["rt-multi-thread"] }
