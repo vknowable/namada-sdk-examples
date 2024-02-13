@@ -7,5 +7,5 @@ edition = "2021"
 base64 = "0.13.0"
 prost = "0.12.0"
 prost-types = "0.12.0"
-namada_sdk = { git = "https://github.com/anoma/namada", rev = "v0.31.1" }
-namada_tx = { git = "https://github.com/anoma/namada", rev = "v0.31.1" }
+namada_sdk = { git = "https://github.com/anoma/namada", rev = "v0.31.4" }
+namada_tx = { git = "https://github.com/anoma/namada", rev = "v0.31.4" }
